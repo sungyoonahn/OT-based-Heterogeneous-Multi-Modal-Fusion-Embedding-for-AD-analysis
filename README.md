@@ -6,3 +6,4 @@ The currenct code is a modified version of the above to encompass heterogenous M
 
 Current code takes MRI and PET data from ADNI
 Currently working on a fix for jax dependency for faster training
+--> Fixed jax dependency
