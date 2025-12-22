@@ -14,6 +14,7 @@ This project analyzes ADNI's MRI and PET data using an Optimal Transport (OT)-ba
 * **MRI (Magnetic Resonance Imaging)**: Structural brain data.
 * **PET (Positron Emission Tomography)**: Functional/metabolic brain data.
 * *Dataset source: ADNI (Alzheimer's Disease Neuroimaging Initiative)*
+* The dataset was extracted from *ADNI* using *ADNIMERGE_26Nov2025*. Which was the latest version.
 
 ## Acknowledgments
 This project is a modified version of the original work found in:
