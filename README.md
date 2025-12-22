@@ -6,3 +6,8 @@ The currenct code is a modified version of the above to encompass heterogenous M
 
 Current code takes MRI and PET data from ADNI
 Currently working on a fix for jax dependency for faster training
+
+## Notes
+
+- README polishing and citation links are welcome via pull request.
+- Please keep data paths and environment settings local to your machine.
