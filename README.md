@@ -1,9 +1,25 @@
-# OT-based-Heterogeneous-Multi-Modal-Fusion-Embedding-for-AD-analysis-
+# OT-based-Heterogeneous-Multi-Modal-Fusion-Embedding-for-AD-analysis
 
-Original code for OT from https://github.com/Qinkaiyu/RIMA
+This repository provides an Optimal Transport (OT) based framework for heterogeneous multi-modal fusion embedding, specifically designed for **Alzheimer's Disease (AD) analysis**. 
 
-The currenct code is a modified version of the above to encompass heterogenous MultiModal AD data
+This project analyzes ADNI's MRI and PET data using an Optimal Transport (OT)-based heterogeneous multimodal fusion approach, currently undergoing optimization with JAX to improve training performance.
 
-Current code takes MRI and PET data from ADNI
+## Key Features
+* **Heterogeneous Multi-modal Fusion**: Specialized in integrating diverse data sources for AD diagnostic analysis.
+* **OT-based Embedding**: Leverages Optimal Transport to align and fuse different feature distributions effectively.
+* **ADNI Data Support**: Pre-configured to process and analyze **MRI** and **PET** imaging data from the Alzheimer's Disease Neuroimaging Initiative (ADNI).
+* **Optimization in Progress**: Currently transitioning to **JAX** dependencies to achieve significantly faster training speeds and improved computational efficiency.
 
-Currently working on a fix for jax dependency for faster training
+## Data Modalities
+* **MRI (Magnetic Resonance Imaging)**: Structural brain data.
+* **PET (Positron Emission Tomography)**: Functional/metabolic brain data.
+* *Dataset source: ADNI (Alzheimer's Disease Neuroimaging Initiative)*
+
+## Acknowledgments
+This project is a modified version of the original work found in:
+* [Qinkaiyu/RIMA](https://github.com/Qinkaiyu/RIMA) - *Robust Inter-modal Alignment for Multi-modal Learning.*
+
+## Current Status & Roadmap
+- [x] Initial modification for heterogeneous AD data.
+- [x] Integration of MRI and PET data processing.
+- [ ] **Fixing JAX dependencies** for high-performance training (In-progress).
