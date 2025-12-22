@@ -23,3 +23,5 @@ This project is a modified version of the original work found in:
 - [x] Initial modification for heterogeneous AD data.
 - [x] Integration of MRI and PET data processing.
 - [ ] **Fixing JAX dependencies** for high-performance training (In-progress).
+
+OT 기반 이기종 멀티모달 임베딩 정렬 코드는 Optimal Transport 구현을 기반으로 Alzheimer’s Disease(AD) 영역의 이기종 멀티모달 데이터를 포괄하도록 수정했으며, 현재 ADNI의 MRI·PET를 입력으로 JAX 의존성 최적화를 통해 학습 속도 향상을 추진중임
