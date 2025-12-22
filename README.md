@@ -2,9 +2,7 @@
 
 This repository provides an Optimal Transport (OT) based framework for heterogeneous multi-modal fusion embedding, specifically designed for **Alzheimer's Disease (AD) analysis**. 
 
-The core methodology is built upon [RIMA](https://github.com/Qinkaiyu/RIMA) and has been significantly modified to accommodate and fuse heterogeneous medical imaging modalities.
-
-
+This project analyzes ADNI's MRI and PET data using an Optimal Transport (OT)-based heterogeneous multimodal fusion approach, currently undergoing optimization with JAX to improve training performance.
 
 ## Key Features
 * **Heterogeneous Multi-modal Fusion**: Specialized in integrating diverse data sources for AD diagnostic analysis.
